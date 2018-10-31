@@ -8,6 +8,6 @@ read secondnumber
 
 residue=$(expr ${firstnumber} % ${secondnumber})
 
-echo "${firstnumber} % ${secondnumber} = ${residue}" > ${outputfile}
-cat ${outputfile} | grep " = 0" 
+echo "${firstnumber} % ${secondnumber} = ${residue}" >> ${outputfile}
+tail -n 1 ${outputfile} | grep " = 0" 
 
