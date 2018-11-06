@@ -4,14 +4,17 @@
 using namespace std;
 
 int main() {
-    double n = 0, a = 0, an = 0;
+    double n = 1, a = 0, an = 0, as = 0, e = 0.00001;
 
-    while (a >= n) {
+    do {
+        an = (n + 1) / ((sqrt(pow(n + 1, 2) + 1)) * (sqrt(pow(n + 1, 2) - 1)));
+
         n++;
-        an = (n + 1) / (sqrt(pow(n + 1, 2) + 1)) * (sqrt(pow(n + 1, 2) - 1));
+        as = (n + 1) / ((sqrt(pow(n + 1, 2) + 1)) * (sqrt(pow(n + 1, 2) - 1)));
 
-        a = an - a;
-        
-        cout << a << endl;
-    }
+        a = abs(as - an);
+    } while (a > e);
+
+    cout.precision(5);
+    cout << fixed << as << endl;
 }

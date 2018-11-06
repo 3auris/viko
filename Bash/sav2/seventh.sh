@@ -35,4 +35,7 @@ case ${action} in
 		echo "Iraso eilutes nr.: "; read line
 		sed -i "${line}d" ${filename}
 	;;
+	*)
+		echo "nera tokios komandos"
+	;;
 esac

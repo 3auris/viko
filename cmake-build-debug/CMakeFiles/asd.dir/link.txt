@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/asd.dir/ModularProgramming/Klases/antra_uzd.cpp.o  -o asd 

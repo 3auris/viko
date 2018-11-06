@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/salyga_1.dir/ModularProgramming/PirmasSav/salyga_1.cpp.o  -o salyga_1 

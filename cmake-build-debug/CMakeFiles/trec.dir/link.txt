@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/trec.dir/ModularProgramming/Klases/trecia_uzd.cpp.o  -o trec 

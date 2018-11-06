@@ -35,14 +35,12 @@ case ${action} in
 	3) bc
 	;;
 	4) 
-	echo "irasykit komandos numeri apie kuria norite gauti informacija: ";
-	read helpNumber
-		
-	if [ ${helpNumber} -gt 4 ] || [ ${helpNumber} -lt 1 ]; then
-		echo "Komandu numeriai: 1, 2, 3, 4"
-		exit 2
-	fi
+	echo "irasykit komanda apie kuria norite gauti informacija: ";
+	read cmd
 
-	echo ${commands[${helpNumber}-1]}
+	man ${cmd}
+	;;
+	*)
+		echo "nera tokio pasirinkimo"
 	;;
 esac
