@@ -3,7 +3,6 @@ while [[ ${close} -eq 0 ]]; do
 	echo -e "Pasirinkite paveiksliuka: \n a, b, c, d, e \n arba 0 jei norite baigti programa: "
 	read task
 
-
 	case ${task} in
 	a)
 		for ((i=1; i <= 5; i++)); do
