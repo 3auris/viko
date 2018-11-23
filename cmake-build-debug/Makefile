@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/aurimasb/CLionProjects/untitled/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/aurimasb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4323.58/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/aurimasb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4323.58/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,58 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named test.cpp
+
+# Build rule for target.
+test.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test.cpp
+.PHONY : test.cpp
+
+# fast build rule for target.
+test.cpp/fast:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/build
+.PHONY : test.cpp/fast
+
+#=============================================================================
+# Target rules for targets named TreciaSav_3.cpp
+
+# Build rule for target.
+TreciaSav_3.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TreciaSav_3.cpp
+.PHONY : TreciaSav_3.cpp
+
+# fast build rule for target.
+TreciaSav_3.cpp/fast:
+	$(MAKE) -f CMakeFiles/TreciaSav_3.cpp.dir/build.make CMakeFiles/TreciaSav_3.cpp.dir/build
+.PHONY : TreciaSav_3.cpp/fast
+
+#=============================================================================
+# Target rules for targets named TreciaSav_2.cpp
+
+# Build rule for target.
+TreciaSav_2.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TreciaSav_2.cpp
+.PHONY : TreciaSav_2.cpp
+
+# fast build rule for target.
+TreciaSav_2.cpp/fast:
+	$(MAKE) -f CMakeFiles/TreciaSav_2.cpp.dir/build.make CMakeFiles/TreciaSav_2.cpp.dir/build
+.PHONY : TreciaSav_2.cpp/fast
+
+#=============================================================================
+# Target rules for targets named TreciaSav_1.cpp
+
+# Build rule for target.
+TreciaSav_1.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TreciaSav_1.cpp
+.PHONY : TreciaSav_1.cpp
+
+# fast build rule for target.
+TreciaSav_1.cpp/fast:
+	$(MAKE) -f CMakeFiles/TreciaSav_1.cpp.dir/build.make CMakeFiles/TreciaSav_1.cpp.dir/build
+.PHONY : TreciaSav_1.cpp/fast
 
 #=============================================================================
 # Target rules for targets named AntrasSav_salyga_4.cpp
@@ -239,6 +291,19 @@ PirmasSav_salyga_2.cpp: cmake_check_build_system
 PirmasSav_salyga_2.cpp/fast:
 	$(MAKE) -f CMakeFiles/PirmasSav_salyga_2.cpp.dir/build.make CMakeFiles/PirmasSav_salyga_2.cpp.dir/build
 .PHONY : PirmasSav_salyga_2.cpp/fast
+
+#=============================================================================
+# Target rules for targets named TreciaSav_4.cpp
+
+# Build rule for target.
+TreciaSav_4.cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TreciaSav_4.cpp
+.PHONY : TreciaSav_4.cpp
+
+# fast build rule for target.
+TreciaSav_4.cpp/fast:
+	$(MAKE) -f CMakeFiles/TreciaSav_4.cpp.dir/build.make CMakeFiles/TreciaSav_4.cpp.dir/build
+.PHONY : TreciaSav_4.cpp/fast
 
 #=============================================================================
 # Target rules for targets named PirmasSav_salyga_4.cpp
@@ -670,14 +735,153 @@ ModularProgramming/PirmasSav/salyga_5.cpp.s:
 	$(MAKE) -f CMakeFiles/PirmasSav_salyga_5.cpp.dir/build.make CMakeFiles/PirmasSav_salyga_5.cpp.dir/ModularProgramming/PirmasSav/salyga_5.cpp.s
 .PHONY : ModularProgramming/PirmasSav/salyga_5.cpp.s
 
+ModularProgramming/TrecSav/antra_uzd.o: ModularProgramming/TrecSav/antra_uzd.cpp.o
+
+.PHONY : ModularProgramming/TrecSav/antra_uzd.o
+
+# target to build an object file
+ModularProgramming/TrecSav/antra_uzd.cpp.o:
+	$(MAKE) -f CMakeFiles/TreciaSav_2.cpp.dir/build.make CMakeFiles/TreciaSav_2.cpp.dir/ModularProgramming/TrecSav/antra_uzd.cpp.o
+.PHONY : ModularProgramming/TrecSav/antra_uzd.cpp.o
+
+ModularProgramming/TrecSav/antra_uzd.i: ModularProgramming/TrecSav/antra_uzd.cpp.i
+
+.PHONY : ModularProgramming/TrecSav/antra_uzd.i
+
+# target to preprocess a source file
+ModularProgramming/TrecSav/antra_uzd.cpp.i:
+	$(MAKE) -f CMakeFiles/TreciaSav_2.cpp.dir/build.make CMakeFiles/TreciaSav_2.cpp.dir/ModularProgramming/TrecSav/antra_uzd.cpp.i
+.PHONY : ModularProgramming/TrecSav/antra_uzd.cpp.i
+
+ModularProgramming/TrecSav/antra_uzd.s: ModularProgramming/TrecSav/antra_uzd.cpp.s
+
+.PHONY : ModularProgramming/TrecSav/antra_uzd.s
+
+# target to generate assembly for a file
+ModularProgramming/TrecSav/antra_uzd.cpp.s:
+	$(MAKE) -f CMakeFiles/TreciaSav_2.cpp.dir/build.make CMakeFiles/TreciaSav_2.cpp.dir/ModularProgramming/TrecSav/antra_uzd.cpp.s
+.PHONY : ModularProgramming/TrecSav/antra_uzd.cpp.s
+
+ModularProgramming/TrecSav/ketv_uzd.o: ModularProgramming/TrecSav/ketv_uzd.cpp.o
+
+.PHONY : ModularProgramming/TrecSav/ketv_uzd.o
+
+# target to build an object file
+ModularProgramming/TrecSav/ketv_uzd.cpp.o:
+	$(MAKE) -f CMakeFiles/TreciaSav_4.cpp.dir/build.make CMakeFiles/TreciaSav_4.cpp.dir/ModularProgramming/TrecSav/ketv_uzd.cpp.o
+.PHONY : ModularProgramming/TrecSav/ketv_uzd.cpp.o
+
+ModularProgramming/TrecSav/ketv_uzd.i: ModularProgramming/TrecSav/ketv_uzd.cpp.i
+
+.PHONY : ModularProgramming/TrecSav/ketv_uzd.i
+
+# target to preprocess a source file
+ModularProgramming/TrecSav/ketv_uzd.cpp.i:
+	$(MAKE) -f CMakeFiles/TreciaSav_4.cpp.dir/build.make CMakeFiles/TreciaSav_4.cpp.dir/ModularProgramming/TrecSav/ketv_uzd.cpp.i
+.PHONY : ModularProgramming/TrecSav/ketv_uzd.cpp.i
+
+ModularProgramming/TrecSav/ketv_uzd.s: ModularProgramming/TrecSav/ketv_uzd.cpp.s
+
+.PHONY : ModularProgramming/TrecSav/ketv_uzd.s
+
+# target to generate assembly for a file
+ModularProgramming/TrecSav/ketv_uzd.cpp.s:
+	$(MAKE) -f CMakeFiles/TreciaSav_4.cpp.dir/build.make CMakeFiles/TreciaSav_4.cpp.dir/ModularProgramming/TrecSav/ketv_uzd.cpp.s
+.PHONY : ModularProgramming/TrecSav/ketv_uzd.cpp.s
+
+ModularProgramming/TrecSav/pirma_uzd.o: ModularProgramming/TrecSav/pirma_uzd.cpp.o
+
+.PHONY : ModularProgramming/TrecSav/pirma_uzd.o
+
+# target to build an object file
+ModularProgramming/TrecSav/pirma_uzd.cpp.o:
+	$(MAKE) -f CMakeFiles/TreciaSav_1.cpp.dir/build.make CMakeFiles/TreciaSav_1.cpp.dir/ModularProgramming/TrecSav/pirma_uzd.cpp.o
+.PHONY : ModularProgramming/TrecSav/pirma_uzd.cpp.o
+
+ModularProgramming/TrecSav/pirma_uzd.i: ModularProgramming/TrecSav/pirma_uzd.cpp.i
+
+.PHONY : ModularProgramming/TrecSav/pirma_uzd.i
+
+# target to preprocess a source file
+ModularProgramming/TrecSav/pirma_uzd.cpp.i:
+	$(MAKE) -f CMakeFiles/TreciaSav_1.cpp.dir/build.make CMakeFiles/TreciaSav_1.cpp.dir/ModularProgramming/TrecSav/pirma_uzd.cpp.i
+.PHONY : ModularProgramming/TrecSav/pirma_uzd.cpp.i
+
+ModularProgramming/TrecSav/pirma_uzd.s: ModularProgramming/TrecSav/pirma_uzd.cpp.s
+
+.PHONY : ModularProgramming/TrecSav/pirma_uzd.s
+
+# target to generate assembly for a file
+ModularProgramming/TrecSav/pirma_uzd.cpp.s:
+	$(MAKE) -f CMakeFiles/TreciaSav_1.cpp.dir/build.make CMakeFiles/TreciaSav_1.cpp.dir/ModularProgramming/TrecSav/pirma_uzd.cpp.s
+.PHONY : ModularProgramming/TrecSav/pirma_uzd.cpp.s
+
+ModularProgramming/TrecSav/trec_uzd.o: ModularProgramming/TrecSav/trec_uzd.cpp.o
+
+.PHONY : ModularProgramming/TrecSav/trec_uzd.o
+
+# target to build an object file
+ModularProgramming/TrecSav/trec_uzd.cpp.o:
+	$(MAKE) -f CMakeFiles/TreciaSav_3.cpp.dir/build.make CMakeFiles/TreciaSav_3.cpp.dir/ModularProgramming/TrecSav/trec_uzd.cpp.o
+.PHONY : ModularProgramming/TrecSav/trec_uzd.cpp.o
+
+ModularProgramming/TrecSav/trec_uzd.i: ModularProgramming/TrecSav/trec_uzd.cpp.i
+
+.PHONY : ModularProgramming/TrecSav/trec_uzd.i
+
+# target to preprocess a source file
+ModularProgramming/TrecSav/trec_uzd.cpp.i:
+	$(MAKE) -f CMakeFiles/TreciaSav_3.cpp.dir/build.make CMakeFiles/TreciaSav_3.cpp.dir/ModularProgramming/TrecSav/trec_uzd.cpp.i
+.PHONY : ModularProgramming/TrecSav/trec_uzd.cpp.i
+
+ModularProgramming/TrecSav/trec_uzd.s: ModularProgramming/TrecSav/trec_uzd.cpp.s
+
+.PHONY : ModularProgramming/TrecSav/trec_uzd.s
+
+# target to generate assembly for a file
+ModularProgramming/TrecSav/trec_uzd.cpp.s:
+	$(MAKE) -f CMakeFiles/TreciaSav_3.cpp.dir/build.make CMakeFiles/TreciaSav_3.cpp.dir/ModularProgramming/TrecSav/trec_uzd.cpp.s
+.PHONY : ModularProgramming/TrecSav/trec_uzd.cpp.s
+
+ModularProgramming/test.o: ModularProgramming/test.cpp.o
+
+.PHONY : ModularProgramming/test.o
+
+# target to build an object file
+ModularProgramming/test.cpp.o:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/ModularProgramming/test.cpp.o
+.PHONY : ModularProgramming/test.cpp.o
+
+ModularProgramming/test.i: ModularProgramming/test.cpp.i
+
+.PHONY : ModularProgramming/test.i
+
+# target to preprocess a source file
+ModularProgramming/test.cpp.i:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/ModularProgramming/test.cpp.i
+.PHONY : ModularProgramming/test.cpp.i
+
+ModularProgramming/test.s: ModularProgramming/test.cpp.s
+
+.PHONY : ModularProgramming/test.s
+
+# target to generate assembly for a file
+ModularProgramming/test.cpp.s:
+	$(MAKE) -f CMakeFiles/test.cpp.dir/build.make CMakeFiles/test.cpp.dir/ModularProgramming/test.cpp.s
+.PHONY : ModularProgramming/test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test.cpp"
+	@echo "... TreciaSav_3.cpp"
+	@echo "... rebuild_cache"
+	@echo "... TreciaSav_2.cpp"
+	@echo "... TreciaSav_1.cpp"
 	@echo "... AntrasSav_salyga_4.cpp"
 	@echo "... AntrasSav_salyga_3.cpp"
 	@echo "... AntrasSav_salyga_2.cpp"
@@ -688,6 +892,7 @@ help:
 	@echo "... salyga_1"
 	@echo "... untitled"
 	@echo "... PirmasSav_salyga_2.cpp"
+	@echo "... TreciaSav_4.cpp"
 	@echo "... PirmasSav_salyga_4.cpp"
 	@echo "... PirmasSav_salyga_3.cpp"
 	@echo "... PirmasSav_salyga_5.cpp"
@@ -734,6 +939,21 @@ help:
 	@echo "... ModularProgramming/PirmasSav/salyga_5.o"
 	@echo "... ModularProgramming/PirmasSav/salyga_5.i"
 	@echo "... ModularProgramming/PirmasSav/salyga_5.s"
+	@echo "... ModularProgramming/TrecSav/antra_uzd.o"
+	@echo "... ModularProgramming/TrecSav/antra_uzd.i"
+	@echo "... ModularProgramming/TrecSav/antra_uzd.s"
+	@echo "... ModularProgramming/TrecSav/ketv_uzd.o"
+	@echo "... ModularProgramming/TrecSav/ketv_uzd.i"
+	@echo "... ModularProgramming/TrecSav/ketv_uzd.s"
+	@echo "... ModularProgramming/TrecSav/pirma_uzd.o"
+	@echo "... ModularProgramming/TrecSav/pirma_uzd.i"
+	@echo "... ModularProgramming/TrecSav/pirma_uzd.s"
+	@echo "... ModularProgramming/TrecSav/trec_uzd.o"
+	@echo "... ModularProgramming/TrecSav/trec_uzd.i"
+	@echo "... ModularProgramming/TrecSav/trec_uzd.s"
+	@echo "... ModularProgramming/test.o"
+	@echo "... ModularProgramming/test.i"
+	@echo "... ModularProgramming/test.s"
 .PHONY : help
 
 

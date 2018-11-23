@@ -17,6 +17,108 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test.cpp">
+				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/test.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 test.cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test.cpp/fast">
+				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/test.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 test.cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreciaSav_3.cpp">
+				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/TreciaSav_3.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 TreciaSav_3.cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreciaSav_3.cpp/fast">
+				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/TreciaSav_3.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 TreciaSav_3.cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
 				<Option type="4"/>
@@ -27,11 +129,93 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="TreciaSav_2.cpp">
+				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/TreciaSav_2.cpp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 TreciaSav_2.cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreciaSav_2.cpp/fast">
+				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/TreciaSav_2.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 TreciaSav_2.cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreciaSav_1.cpp">
+				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/TreciaSav_1.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 TreciaSav_1.cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreciaSav_1.cpp/fast">
+				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/TreciaSav_1.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 TreciaSav_1.cpp/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -497,6 +681,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TreciaSav_4.cpp">
+				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/TreciaSav_4.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 TreciaSav_4.cpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TreciaSav_4.cpp/fast">
+				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/TreciaSav_4.cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 TreciaSav_4.cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aurimasb/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="PirmasSav_salyga_4.cpp">
 				<Option output="/home/aurimasb/CLionProjects/untitled/cmake-build-debug/PirmasSav_salyga_4.cpp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/aurimasb/CLionProjects/untitled/cmake-build-debug"/>
@@ -723,6 +953,21 @@
 		</Unit>
 		<Unit filename="/home/aurimasb/CLionProjects/untitled/ModularProgramming/PirmasSav/salyga_5.cpp">
 			<Option target="PirmasSav_salyga_5.cpp"/>
+		</Unit>
+		<Unit filename="/home/aurimasb/CLionProjects/untitled/ModularProgramming/TrecSav/antra_uzd.cpp">
+			<Option target="TreciaSav_2.cpp"/>
+		</Unit>
+		<Unit filename="/home/aurimasb/CLionProjects/untitled/ModularProgramming/TrecSav/ketv_uzd.cpp">
+			<Option target="TreciaSav_4.cpp"/>
+		</Unit>
+		<Unit filename="/home/aurimasb/CLionProjects/untitled/ModularProgramming/TrecSav/pirma_uzd.cpp">
+			<Option target="TreciaSav_1.cpp"/>
+		</Unit>
+		<Unit filename="/home/aurimasb/CLionProjects/untitled/ModularProgramming/TrecSav/trec_uzd.cpp">
+			<Option target="TreciaSav_3.cpp"/>
+		</Unit>
+		<Unit filename="/home/aurimasb/CLionProjects/untitled/ModularProgramming/test.cpp">
+			<Option target="test.cpp"/>
 		</Unit>
 		<Unit filename="/home/aurimasb/CLionProjects/untitled/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

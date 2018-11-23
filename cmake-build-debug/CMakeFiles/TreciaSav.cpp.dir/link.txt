@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TreciaSav.cpp.dir/ModularProgramming/TrecSav/pirma_uzd.cpp.o  -o TreciaSav.cpp 

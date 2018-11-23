@@ -19,3 +19,10 @@ add_executable(AntrasSav_salyga_2.cpp ModularProgramming/AntrasSav/salyga_2.cpp)
 add_executable(AntrasSav_salyga_3.cpp ModularProgramming/AntrasSav/salyga_3.cpp)
 add_executable(AntrasSav_salyga_4.cpp ModularProgramming/AntrasSav/salyga_4.cpp)
 add_executable(AntrasSav_salyga_5.cpp ModularProgramming/AntrasSav/salyga_5.cpp)
+
+add_executable(TreciaSav_1.cpp ModularProgramming/TrecSav/pirma_uzd.cpp)
+add_executable(TreciaSav_2.cpp ModularProgramming/TrecSav/antra_uzd.cpp)
+add_executable(TreciaSav_3.cpp ModularProgramming/TrecSav/trec_uzd.cpp)
+add_executable(TreciaSav_4.cpp ModularProgramming/TrecSav/ketv_uzd.cpp)
+
+add_executable(test.cpp ModularProgramming/test.cpp)
