@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/TreciaSav_3.cpp.dir/ModularProgramming/TrecSav/trec_uzd.cpp.o  -o TreciaSav_3.cpp 

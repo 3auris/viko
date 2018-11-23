@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/PirmasSav_salyga_5.cpp.dir/ModularProgramming/PirmasSav/salyga_5.cpp.o  -o PirmasSav_salyga_5.cpp 

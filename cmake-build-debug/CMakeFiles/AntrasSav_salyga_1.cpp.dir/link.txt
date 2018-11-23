@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/AntrasSav_salyga_1.cpp.dir/ModularProgramming/AntrasSav/salyga_1.cpp.o  -o AntrasSav_salyga_1.cpp 

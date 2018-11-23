@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/TreciaSav_2.cpp.dir/ModularProgramming/TrecSav/antra_uzd.cpp.o  -o TreciaSav_2.cpp 
